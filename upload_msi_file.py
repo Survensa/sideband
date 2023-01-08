@@ -23,6 +23,7 @@ headers = {
 }
 
 # read the file content
+# How to handle the files that have bigger size (1GB, 2BG.....) ?
 with open(file_path, 'rb') as f:
     content = f.read()
 
